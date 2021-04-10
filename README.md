@@ -42,11 +42,11 @@ cd decoder/
 
 OR
 
-curl https://raw.githubusercontent.com/Anon-Exploiter/decoder/main/decoder.py -O
+curl https://raw.githubusercontent.com/Anon-Exploiter/decoder/main/decode.py -O
 
 OR
 
-wget https://raw.githubusercontent.com/Anon-Exploiter/decoder/main/decoder.py
+wget https://raw.githubusercontent.com/Anon-Exploiter/decoder/main/decode.py
 ```
 
 ### Usage
