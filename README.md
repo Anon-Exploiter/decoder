@@ -19,6 +19,8 @@ The one-liner doesn't make much sense right? Don't worry, I gotcha!
 
 Let's say you've a string _(you obtained from somewhere, maybe a boot2root machine, ctf, etc.)_, you know it's encoded _(isn't a hash and is not encrypted)_ but just can't figure out the encoding mechanism used? No worries, this script will try and decode it in most used encoding mechanisms (i.e. base64, rot47, atbash, etc.) 
 
+Once the results come back, make sure to go through each and every line! That's all manual :3 
+
 The script for now only supports: 
 
 - base16
