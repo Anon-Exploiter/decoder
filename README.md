@@ -71,7 +71,7 @@ Feel free to file a issue or create a PR for that issue if you come across any.
 
 ![image](https://user-images.githubusercontent.com/18597330/114285324-c578ae80-9a6f-11eb-9eef-85cd0fc11ea8.png)
 
-![image](./ScreenShots/decoder_ss.png)
+![image](https://user-images.githubusercontent.com/18597330/114298074-ecfe6400-9acd-11eb-9e7d-02c6bae9ec01.png)
 
 ### Credits
 - Big thanks to [autodecoder](https://github.com/oreosES/autodecoder) (was a lot of help while writing this)
