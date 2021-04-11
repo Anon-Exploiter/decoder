@@ -1,4 +1,5 @@
 # Decoder
+> Automating the Manual
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![GitHub](https://img.shields.io/github/license/Anon-Exploiter/decoder)
@@ -23,32 +24,25 @@ Once the results come back, make sure to go through each and every line! That's 
 
 The script for now only supports: 
 
-- base16
-- base32
-- base64
-- base85
-- atbash
-- baconian
-- caesar
-- morse
-- rot13
-- rot47
+- Base16
+- Base32
+- Base64
+- Base85
+- Atbash
+- Baconian
+- Caesar
+- Morse
+- Rot13
+- Rot47
 
 ### Tested On (OS & Python version)
 - Ubuntu 20.04 LTS -- Python 3.8.5
+- Arch Linux -- Python 3.9.2
 
 ### Downloading
 ```csharp
 git clone https://github.com/Anon-Exploiter/decoder/
 cd decoder/
-
-OR
-
-curl https://raw.githubusercontent.com/Anon-Exploiter/decoder/main/decode.py -O
-
-OR
-
-wget https://raw.githubusercontent.com/Anon-Exploiter/decoder/main/decode.py
 ```
 
 ### Usage
@@ -76,6 +70,8 @@ Feel free to file a issue or create a PR for that issue if you come across any.
 ![image](https://user-images.githubusercontent.com/18597330/114285322-c3165480-9a6f-11eb-9ac1-0834adcc4487.png)
 
 ![image](https://user-images.githubusercontent.com/18597330/114285324-c578ae80-9a6f-11eb-9eef-85cd0fc11ea8.png)
+
+![image](./ScreenShots/decoder_ss.png)
 
 ### Credits
 - Big thanks to [autodecoder](https://github.com/oreosES/autodecoder) (was a lot of help while writing this)

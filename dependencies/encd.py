@@ -1,37 +1,6 @@
-#!/usr/bin/python3
-
-from codecs import encode
-
 import base64
-import argparse
-import re
 import pycipher
-
-# Supported Encodings (for now -- add a request through issues!)
-# base16
-# base32
-# base64
-# base85
-# atbash
-# baconian
-# caesar
-# morse
-# rot13
-# rot47
-
-def addArguments():
-	parser 		= argparse.ArgumentParser(description='', usage=f'\r-------------------------------------------------\n\tStrings Decoder\n-------------------------------------------------\n\n[#] Usage: python3 decoder.py --file file.txt')
-	parser._optionals.title = "Basic Help"
-
-	opts 		= parser.add_argument_group(f'Arguments')
-	opts.add_argument('-s', '--string', 	action="store", 	dest="string", 		default=False, 		help='String to decode!')
-	opts.add_argument('-f', '--file', 		action="store", 	dest="file", 		default=False, 		help='File to decode!')
-
-	args = parser.parse_args()
-	return(args, parser)
-
-def getFileContents(file):
-	with open(file, 'r') as f: return( f.read().strip() )
+from codecs import encode
 
 def base16Decode(string):
 	try:
@@ -169,44 +138,3 @@ def rot47Decode(string):
 
 	except Exception as e:
 		return f"Exception: {e}"
-
-def main():
-	args, parser 	= addArguments()
-
-	if args.file:
-		string 		= args.file
-		string 		= getFileContents(string)
-
-	elif args.string:
-		string 		= args.string
-
-	else:
-		parser.print_help()
-		exit()
-
-	print("---")
-	print(f"[#] Provided string: {string}")
-	print("---")
-
-	print()
-	print(f"[$] Base16 decoded: {base16Decode(string)}")
-	print(f"[$] Base32 decoded: {base32Decode(string)}")
-	print(f"[$] Base64 decoded: {base64Decode(string)}")
-	print(f"[$] Base85 decoded: {base85Decode(string)}")
-	print(f"[$] AtBash decoded: {atbashDecode(string)}")
-	print(f"[$] Baconian decoded: {baconianDecode(string)}")
-	print(f"[$] Morse decoded: {morseDecode(string)}")
-	print(f"[$] ROT13 decoded: {rot13Decode(string)}")
-	print(f"[$] ROT47 decoded: {rot47Decode(string)}")
-
-	print()
-	print("[%] Ceaser (with shifts 0 - 9)")
-	print()
-
-	for shift in range(0, 10):
-		print(f"[&] Caeser Cipher [shift: {shift}] decoded: {cipherDecrypt(string, shift)}")
-	
-	print()
-
-if __name__ == '__main__':
-	main()
