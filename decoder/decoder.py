@@ -50,14 +50,10 @@ def banner():
 	print(colored(title, "green"))
 
 def basetitle():
-	print()
 	print(f"[{colored('%', 'yellow')}] Base Encodings (16 - 85)")
-	print()
 
 def ceasertitle():
-	print()
 	print(f"[{colored('%', 'yellow')}] Ceaser Cipher (with shifts 0 - 9)")
-	print()
 
 def commonEncodingTitle():
 	print()
@@ -69,7 +65,7 @@ def rotTitle():
 	print(f"[{colored('%', 'yellow')}] Rot Encodings (13 - 47)")
 	print()
 
-def devider():
+def divider():
 	print("-------------------------------------------------------")
 
 def base16Decode(string):
@@ -229,42 +225,50 @@ def main():
 	print()
 
 	if ("Exception" not in base16Decode(string)):
-		devider()
+		divider()
 		basetitle()
 		print(f"[{colored('+', 'green')}] Base16 decoded: {colored(base16Decode(string), 'green')}")
+
 	elif ("Exception" not in base32Decode(string)):
-		devider()
+		divider()
 		basetitle()
 		print(f"[{colored('+', 'green')}] Base32 decoded: {colored(base32Decode(string), 'green')}")
+
 	elif ("Exception" not in base64Decode(string)):
-		devider()
+		divider()
 		basetitle()
 		print(f"[{colored('+', 'green')}] Base64 decoded: {colored(base64Decode(string), 'green')}")
+
 	elif ("Exception" not in base85Decode(string)):
-		devider()
+		divider()
 		basetitle()
 		print(f"[{colored('+', 'green')}] Base85 decoded: {colored(base85Decode(string), 'green')}")
 
-	devider()
+	divider()
 	commonEncodingTitle()
 
 	print(f"[{colored('+', 'green')}] AtBash decoded: {colored(atbashDecode(string), 'green')}")
+
 	if ("Exception" not in baconianDecode(string)):
 		print(f"[{colored('+', 'green')}] Baconian decoded: {colored(baconianDecode(string), 'green')}")
+
 	if (morseDecode(string) != " "):
 		print(f"[{colored('+', 'green')}] Morse decoded: {colored(morseDecode(string), 'green')}")
-	devider()
+
+	divider()
 
 	rotTitle()
 	print(f"[{colored('+', 'green')}] ROT13 decoded: {colored(rot13Decode(string), 'green')}")
 	print(f"[{colored('+', 'green')}] ROT47 decoded: {colored(rot47Decode(string), 'green')}")
-	devider()
+	print()
 
+	divider()
 	ceasertitle()
+	print()
 
 	for shift in range(0, 10):
 		print(f"[{colored('&', 'green')}] Shift: {shift} Decoded: {colored(cipherDecrypt(string, shift), 'green')}")
-	devider()
+	divider()
 	print()
 
 if __name__ == '__main__':
