@@ -74,6 +74,9 @@ Feel free to file a issue or create a PR for that issue if you come across any.
 
 ![image](https://user-images.githubusercontent.com/18597330/114298074-ecfe6400-9acd-11eb-9e7d-02c6bae9ec01.png)
 
+### Contributors
+- [@thehackersbrain](https://twitter.com/thehackersbrain) - [#2](https://github.com/Anon-Exploiter/decoder/pull/2) - Coloring output and refactoring whole code base! 
+
 ### Credits
 - Big thanks to [autodecoder](https://github.com/oreosES/autodecoder) (was a lot of help while writing this)
 - Thanks to [@thehackersbrain](https://twitter.com/thehackersbrain)'s [Blogger](https://www.vulnhub.com/series/blogger,462/) machine which made me write this
