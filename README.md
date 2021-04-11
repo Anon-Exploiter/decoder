@@ -58,7 +58,7 @@ python3 decode.py -f rot47-encoded.txt
 ```
 
 ### Todos
-- Add colors
+- <s>Add colors</s>
 - Utilize internal libraries to add all the decoding (rather than custom written code)
 
 ### Filing Bugs/Contribution
