@@ -1,5 +1,5 @@
 # Decoder
-> Automating the Manual
+> Automating the Manual :)
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![GitHub](https://img.shields.io/github/license/Anon-Exploiter/decoder)
