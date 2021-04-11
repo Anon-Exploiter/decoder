@@ -78,8 +78,6 @@ Feel free to file a issue or create a PR for that issue if you come across any.
 
 ![image](https://user-images.githubusercontent.com/18597330/114323624-7dc15800-9b3f-11eb-95e7-185c363361b7.png)
 
-![image](https://user-images.githubusercontent.com/18597330/114285324-c578ae80-9a6f-11eb-9eef-85cd0fc11ea8.png)
-
 ![image](https://user-images.githubusercontent.com/18597330/114323651-992c6300-9b3f-11eb-9191-3ecb7a353976.png)
 
 ### Contributors
