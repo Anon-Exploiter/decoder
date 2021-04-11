@@ -4,7 +4,7 @@ with open('README.md') as f:
     long_description = f.read().strip()
 
 setup(name='decoder',
-	version='0.3',
+	version='0.4',
 	description='A simple script to try and decode a string in various encoding mechanisms regardless of it\'s (original) type.',
 	long_description=long_description,
 	long_description_content_type='text/markdown',  # This is important!

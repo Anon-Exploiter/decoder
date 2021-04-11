@@ -13,7 +13,7 @@
 [issues-shield]: https://img.shields.io/github/issues/Anon-Exploiter/decoder.svg?style=flat-square
 [issues-url]: https://github.com/Anon-Exploiter/decoder/issues
 
-![image](https://user-images.githubusercontent.com/18597330/114285294-9a8e5a80-9a6f-11eb-9475-d251c0ea522a.png)
+![image](https://user-images.githubusercontent.com/18597330/114323816-7484bb00-9b40-11eb-9f97-4d1ea6cc4c18.png)
 
 A simple script to try and decode a string in various encoding mechanisms regardless of it's (original) type. 
 
@@ -40,22 +40,30 @@ The script for now only supports:
 - Ubuntu 20.04 LTS -- Python 3.8.5
 - Arch Linux -- Python 3.9.2
 
-### Downloading
+### Downloading & Installation
+```csharp
+pip3 install decoder 
+```
+
+OR
+
 ```csharp
 git clone https://github.com/Anon-Exploiter/decoder/
 cd decoder/
+python3 setup.py build 
+python3 setup.py install
 ```
 
 ### Usage
 
 Decoding a string from directly from argument:
 ```bash
-python3 decode.py -s 'uryyb'
+decoder -s 'uryyb'
 ```
 
 Decoding a string from a file:
 ```bash
-python3 decode.py -f rot47-encoded.txt
+decoder -f rot47-encoded.txt
 ```
 
 ### Todos
@@ -66,13 +74,13 @@ python3 decode.py -f rot47-encoded.txt
 Feel free to file a issue or create a PR for that issue if you come across any.
 
 ### Screenshots
-![image](https://user-images.githubusercontent.com/18597330/114285317-beea3700-9a6f-11eb-9352-a276b4a8d510.png)
+![image](https://user-images.githubusercontent.com/18597330/114323608-6a15f180-9b3f-11eb-8eb8-0455cddcf08b.png)
 
-![image](https://user-images.githubusercontent.com/18597330/114285322-c3165480-9a6f-11eb-9ac1-0834adcc4487.png)
+![image](https://user-images.githubusercontent.com/18597330/114323624-7dc15800-9b3f-11eb-95e7-185c363361b7.png)
 
 ![image](https://user-images.githubusercontent.com/18597330/114285324-c578ae80-9a6f-11eb-9eef-85cd0fc11ea8.png)
 
-![image](https://user-images.githubusercontent.com/18597330/114298074-ecfe6400-9acd-11eb-9e7d-02c6bae9ec01.png)
+![image](https://user-images.githubusercontent.com/18597330/114323651-992c6300-9b3f-11eb-9191-3ecb7a353976.png)
 
 ### Contributors
 - [@thehackersbrain](https://twitter.com/thehackersbrain) - [#2](https://github.com/Anon-Exploiter/decoder/pull/2) - Coloring output and refactoring whole code base! 

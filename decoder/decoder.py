@@ -56,9 +56,7 @@ def ceasertitle():
 	print(f"[{colored('%', 'yellow')}] Ceaser Cipher (with shifts 0 - 9)")
 
 def commonEncodingTitle():
-	print()
 	print(f"[{colored('%', 'yellow')}] Common Encodings")
-	print()
 
 def rotTitle():
 	print()
@@ -206,6 +204,8 @@ def rot47Decode(string):
 		return f"Exception: {e}"
 
 def main():
+	banner()
+
 	args, parser = addArguments()
 
 	if args.file:
@@ -226,25 +226,30 @@ def main():
 
 	if ("Exception" not in base16Decode(string)):
 		divider()
+		print()
 		basetitle()
 		print(f"[{colored('+', 'green')}] Base16 decoded: {colored(base16Decode(string), 'green')}")
 
 	elif ("Exception" not in base32Decode(string)):
 		divider()
+		print()
 		basetitle()
 		print(f"[{colored('+', 'green')}] Base32 decoded: {colored(base32Decode(string), 'green')}")
 
 	elif ("Exception" not in base64Decode(string)):
 		divider()
+		print()
 		basetitle()
 		print(f"[{colored('+', 'green')}] Base64 decoded: {colored(base64Decode(string), 'green')}")
 
 	elif ("Exception" not in base85Decode(string)):
 		divider()
+		print()
 		basetitle()
 		print(f"[{colored('+', 'green')}] Base85 decoded: {colored(base85Decode(string), 'green')}")
 
 	divider()
+	print()
 	commonEncodingTitle()
 
 	print(f"[{colored('+', 'green')}] AtBash decoded: {colored(atbashDecode(string), 'green')}")
@@ -255,6 +260,7 @@ def main():
 	if (morseDecode(string) != " "):
 		print(f"[{colored('+', 'green')}] Morse decoded: {colored(morseDecode(string), 'green')}")
 
+	print()
 	divider()
 
 	rotTitle()
@@ -263,14 +269,14 @@ def main():
 	print()
 
 	divider()
+	print()
 	ceasertitle()
 	print()
 
 	for shift in range(0, 10):
 		print(f"[{colored('&', 'green')}] Shift: {shift} Decoded: {colored(cipherDecrypt(string, shift), 'green')}")
-	divider()
 	print()
+	divider()
 
 if __name__ == '__main__':
-	banner()
 	main()
