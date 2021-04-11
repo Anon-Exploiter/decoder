@@ -5,6 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/Anon-Exploiter/decoder)
 [![Contributors][contributors-shield]][contributors-url]
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/Anon-Exploiter/decoder)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Anon-Exploiter/decoder.svg?style=flat)]()
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=%40syed_umar)](https://twitter.com/syed__umar)
 
 [contributors-shield]: https://img.shields.io/github/contributors/Anon-Exploiter/decoder.svg?style=flat-square
@@ -72,6 +73,9 @@ Feel free to file a issue or create a PR for that issue if you come across any.
 ![image](https://user-images.githubusercontent.com/18597330/114285324-c578ae80-9a6f-11eb-9eef-85cd0fc11ea8.png)
 
 ![image](https://user-images.githubusercontent.com/18597330/114298074-ecfe6400-9acd-11eb-9e7d-02c6bae9ec01.png)
+
+### Contributors
+- [@thehackersbrain](https://twitter.com/thehackersbrain) - [#2](https://github.com/Anon-Exploiter/decoder/pull/2) - Coloring output and refactoring whole code base! 
 
 ### Credits
 - Big thanks to [autodecoder](https://github.com/oreosES/autodecoder) (was a lot of help while writing this)
