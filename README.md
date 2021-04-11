@@ -5,6 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/Anon-Exploiter/decoder)
 [![Contributors][contributors-shield]][contributors-url]
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/Anon-Exploiter/decoder)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Anon-Exploiter/decoder.svg?style=flat)]()
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=%40syed_umar)](https://twitter.com/syed__umar)
 
 [contributors-shield]: https://img.shields.io/github/contributors/Anon-Exploiter/decoder.svg?style=flat-square
